@@ -13,7 +13,7 @@ import yaml
 
 import tools as tools
 import wrappers as wrappers
-from agents.gap_follower import GapFollower
+from gap_follower import GapFollower
 
 import numpy as np
 import tensorflow as tf

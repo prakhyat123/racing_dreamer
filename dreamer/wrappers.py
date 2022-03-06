@@ -2,7 +2,9 @@ import gym
 import numpy as np
 from PIL import Image
 from scipy import ndimage
-from racecar_gym.envs.multi_agent_race import MultiAgentScenario, MultiAgentRaceEnv
+from racecar_gym import MultiAgentScenario
+
+from racecar_gym.envs.gym_api.multi_agent_race import MultiAgentRaceEnv
 
 envs = {}
 
